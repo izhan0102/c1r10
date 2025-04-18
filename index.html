@@ -3,68 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem Ipsum | Modern Dark Theme</title>
+    <title>Muskurahat Foundation</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Lorem Ipsum</div>
-        <div class="nav-links">
-            <a href="#gallery">Gallery</a>
-            <a href="#information">Information</a>
-            <a href="#team">Team</a>
-            <a href="#contact">Contact Us</a>
-        </div>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://www.muskurahat.org.in/_next/image?url=%2Flogo.webp&w=640&q=75" alt="Muskurahat Foundation Logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#information" class="nav-link">Information</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Lorem Ipsum</h1>
-            <p>A Modern Dark Theme Experience</p>
-        </section>
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero">
+                <h1>It takes a village to <span class="highlight">raise a child</span></h1>
+                <p>Join Ours today</p>
+                <a href="#information" class="btn">Checkout How we are</a>
+            </div>
+        </div>
+    </section>
 
-        <section id="gallery" class="section">
-            <h2>Gallery</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Gallery</span></h2>
+                <div class="section-underline"></div>
+            </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=1" alt="Gallery Image 1">
+                    <img src="https://images.unsplash.com/photo-1509099863731-ef4bff19e808?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Children in classroom">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=2" alt="Gallery Image 2">
+                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Community service">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=3" alt="Gallery Image 3">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Food distribution">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=4" alt="Gallery Image 4">
+                    <img src="https://images.unsplash.com/photo-1560252829-804f1aedf1be?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Health camp">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=5" alt="Gallery Image 5">
+                    <img src="https://images.unsplash.com/photo-1565945887714-d5139f4eb0ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Educational workshop">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=6" alt="Gallery Image 6">
+                    <img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Community building">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="information" class="section">
-            <h2>Information</h2>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </section>
+    <!-- Information Section -->
+    <section id="information" class="section purple-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Information</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="info-content">
+                <div class="info-text">
+                    <h3><span class="highlight">bridging the gap</span></h3>
+                    <div class="impact-points">
+                        <div class="impact-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Providing academic support along with SEL and Mental-wellbeing</p>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Building foundational literacy and numeracy skills</p>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Enabling children form career pathways after school</p>
+                        </div>
+                    </div>
+                    
+                    <div class="decade-stats">
+                        <h3>over a decade <span class="year-span">(2014-2024)</span></h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="4600">0</h4>
+                                <p>Number Of Children</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="35">0</h4>
+                                <p>Number Of Centers</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="9">0</h4>
+                                <p>Locations Across</p>
+                            </div>
+                        </div>
+                        
+                        <div class="decade-desc">
+                            <p>an incredible decade of learning, we have shaped a deeper, more impactful program that since 2021 is an ongoing, year-round intervention, executed daily with -</p>
+                        </div>
+                        
+                        <div class="stats-grid current-stats">
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="1500">0</h4>
+                                <p>Number Of Children</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="18">0</h4>
+                                <p>Number Of Centers</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4 class="counter" data-count="2">0</h4>
+                                <p>Number Of Schools</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-section">
+                        <p class="organization-info">Muskurahat Foundation is a registered Indian Educational Non-Profit Organisation (NGO) under the Mumbai Public Trust Act, 1950. We are a 12A registered society with section 80(G) status of Income Tax Act, 1961.</p>
+                        
+                        <p class="organization-info">Muskurahat complies with all financial regulations applicable for non-profits organisations in India. Our financial accounts are audited annually and published on our website.</p>
+                    </div>
+                    
+                    <h3>Our Vision</h3>
+                    <p class="vision-statement"><span class="highlight">Future-Proofing</span> the next generation, today.</p>
+                    <p class="vision-description">Future-proofing (verb): Equipping the next generation with knowledge and skills to not only survive but also thrive in a dynamic world, ensuring their long-term success and well-being.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <div class="mission-points">
+                        <div class="mission-item">
+                            <h4>With every child</h4>
+                            <p>To be the consistent support for every child in their journey towards becoming happy, independent, and socially, responsible citizens.</p>
+                        </div>
+                        <div class="mission-item">
+                            <h4>For every child</h4>
+                            <p>To advocate for every child by mobilizing individuals, communities, government and institutions to act.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-section">
+                        <h3>Our Journey</h3>
+                        <div class="journey-text">
+                            <p>In 2014, Himanshu Goenka, then a 17 year old, visited a shelter home to spend a day with the children to bring some happiness in their lives. His experience fostered the desire to do this for the rest of his life.</p>
+                            <p>Over the last 10 years, Muskurahat has grown from a group of young volunteers bringing smiles to children in need to an impact driven education NGO that is striving to provide access to quality education and a chance for a better future to all children in need.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="decade-message">
+                        <h3>A decade of striving to bring Muskurahat to every child.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   
-    </main>
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Team</span></h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" alt="Team Member">
+                    </div>
+                    <h3>Tutors & Teachers</h3>
+                    <p>Supporting Children</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" alt="Team Member">
+                    </div>
+                    <h3>Himanshu Goenka</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" alt="Team Member">
+                    </div>
+                    <h3>Team Members</h3>
+                    <p>Core Team</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" alt="Team Member">
+                    </div>
+                    <h3>Volunteers</h3>
+                    <p>Bringing Change</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact <span class="highlight">Us</span></h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Mumbai, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>Contact Number</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@muskurahat.org</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Lorem Ipsum. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 <span class="highlight">Muskurahat Foundation</span>. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
